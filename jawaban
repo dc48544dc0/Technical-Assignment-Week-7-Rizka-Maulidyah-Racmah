@@ -1,0 +1,39 @@
+mkdir Rizka
+cd Rizka
+mkdir sekolah
+mkdir kerja
+cd sekolah
+touch ijazah.txt
+sudo nano ijazah.txt
+Perkenalkan namaku Rizka
+Aku berasal dari Madiun
+Salam kenal :D
+ctrl x,y,enter
+cat ijazah.txt
+touch portofolio.txt
+sudo nano portofolio.txt
+Saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah
+- PT Brawijaya
+- PT Mahardika
+- PT Sentosa Jaya
+ctrl x,y,enter
+cd ..
+cd kerja
+touch cv.txt
+sudo nano cv.txt
+Salam,
+
+Perkenalkan namaku Rizka, saya memiliki kegemaran 
+- Olahraga
+- Membaca
+- Memasak
+ctrl x,y,enter
+cat cv.txt
+cd ..
+cd sekolah
+mv portofolio.txt /home/pi/Eka/kerja
+ls
+cd ..
+cd kerja
+ls
+
